@@ -1,0 +1,29 @@
+.App {
+  background-color: white !important;  /* Force white background */
+}
+
+.App-header {
+  background-color: white !important;
+ 
+   
+}
+.profile{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    row-gap: 0px;
+    column-gap: 70px;
+  }
+  @media (max-width: 768px) { 
+    /* For screens smaller than 768px (typically tablets and mobile) */
+    .profile {
+      grid-template-columns: 1fr; /* 1 column on mobile */
+      column-gap: 0; /* Remove column gap for single column layout */
+    }
+  }
+ 
+.label{
+  font-weight: 600;
+}
+
+
